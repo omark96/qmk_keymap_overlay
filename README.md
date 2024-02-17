@@ -1,6 +1,13 @@
 # QMK Keymap Overlay
 A simple tool for displaying an overlay of your QMK keymap on Windows. This is meant for whenever you're trying to learn a new layout and want an easy way to check your layout.
 
+Showing first the overlay without auto-hide on base layer and then with auto-hide.
+
+
+https://github.com/omark96/qmk_keymap_overlay/assets/43138339/b7f38781-9829-46a4-ae3f-ab1f6e0ef7bb
+
+
+
 Main menu:
 
 ![Main menu](https://github.com/omark96/qmk_keymap_overlay/assets/43138339/13dd1a12-f159-4688-8e3a-57708e65ffea)
@@ -58,6 +65,11 @@ CONSOLE_ENABLE = yes
 ```powershell
 python main.py
 ```
+
+You can press and hold anywhere on the window to drag.
+
+Right click or pressing escape while the window is in focus will take you back to the main menu.
+
 The program requires that you have a `keymap.json` file for your keyboard. If you only have a `keymap.c` file you will have to convert it to .json.
 
 ### Alternative to requiring the full QMK repo
