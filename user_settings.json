@@ -1,0 +1,13 @@
+{
+    "maker": "cheapino",
+    "keyboard": "",
+    "revision": "",
+    "layout": "LAYOUT_split_3x5_3",
+    "keymap": "default",
+    "square_size": 70,
+    "font_size": 10,
+    "auto_hide": true,
+    "fade_in_steps": 20,
+    "fade_out_steps": 20,
+    "transparency": 0.92
+}
